@@ -30,7 +30,7 @@ header h1 {
   padding: 5vh;
 }
 
-.video-placeholder video {
+#video {
   max-width: 100%;
   height: 60vh;
   border: 1px solid #fff;
