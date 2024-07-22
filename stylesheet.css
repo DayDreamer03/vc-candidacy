@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #000;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 1.15em;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+.video-placeholder {
+  padding: 5vh;
+}
+
+.video-placeholder video {
+  max-width: 100%;
+  height: 60vh;
+  border: 1px solid #fff;
+}
+
+.section-separator {
+  height: 1px; /* Thin line */
+  background-color: white; /* White line */
+  margin: 0 15%; /* Centered */
+}
+
+.startups {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.startup {
+  padding: 75px 100px;
+  width: 50%;
+}
+
+.jiva {
+  background-color: #000000;
+  text-align: left;
+  color: #fff;
+}
+
+.divider {
+  height: 1px;
+  background-color: white; /* Adjust the color as needed */
+  width: 70%; /* Adjust the width as needed */
+}
+
+.startup.turbine {
+  display: flex;
+  flex-direction: row; /* Arrange items horizontally */
+  align-items: center; /* Align items to the top */
+}
+
+.turbine {
+  background-color: #000000;
+  flex: 2;
+}
+
+.netzero {
+  text-align: left;
+}
+
+.startup h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.startup h3 {
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metrics div {
+  width: 45%;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+  text-align: left;
+}
+
+.netzero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border-width: 1px;
+  border: #fff;
+  border-style: solid;
+}
+
+footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 50px 20px;
+  padding-bottom: 100px;
+}
+
+footer h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+footer button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 30px 60px;
+  font-size: 1em;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+footer button:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
